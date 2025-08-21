@@ -45,7 +45,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # LOG CHANNELS *
-LOG_CHANNEL = int(environ.get('-1002930958521 ', 0))
+LOG_CHANNEL = int(environ.get('-1002930958521', 0))
 LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', 0))
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL'))
 PRIME_MEMBERS_LOGS = int(environ.get('PRIME_MEMBERS_LOGS'))
@@ -191,4 +191,5 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
 # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
 # rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+
 
